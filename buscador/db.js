@@ -2,10 +2,10 @@
 
 /* configuration settings */
 
-	searchname = 'index.html'
+	searchname = 'buscar.html'
 	
 	usebannercode=true
-ButtonCode = "<button type='submit'>Buscar</button>"
+ButtonCode = "<button type='submit' class='fa fa-search btn btn-primary' align='right'>Buscar</button>"
 	function templateBody() {
 		document.write('<'+
 		'script language="Javascript">'+

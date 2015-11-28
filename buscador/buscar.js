@@ -256,7 +256,7 @@ function AddBody() {
 						)
 
 	templateBody()
-	document.write("<form name='searchform' method='post' action='javascript:doSearch()'><table border='0' width='80%'><tr><td align='center'><font face='Arial, Helvetica, sans-serif' size='3'><input name='searchwords' type='text' size='20'>&nbsp;&nbsp;<a href='javascript:doSearch()'>"+ButtonCode+"</a></font></td></tr></table></form>")
+	document.write("<form name='searchform' class='navbar-form navbar-right' align='right' method='post' action='javascript:doSearch()'><table border='0' width='100%'><tr><td align='right'><font face='Arial, Helvetica, sans-serif' size='3'><input name='searchwords' type='text' size='20' class='form-control' placeholder='Buscar'>&nbsp;&nbsp;<a href='javascript:doSearch()'>"+ButtonCode+"</a></font></td></tr></table></form>")
 	if (usebannercode) bannerCode()
 }
 
@@ -331,7 +331,7 @@ function search(keyword) {
 var searchwords = ''
 var newload = true
 
-function () {
+function initXsearch() {
 	if (searchwords!='') searchAll(searchwords)
 	else if (newload) Cat()
 }
