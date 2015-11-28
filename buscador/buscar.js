@@ -331,7 +331,7 @@ function search(keyword) {
 var searchwords = ''
 var newload = true
 
-function initXsearch() {
+function () {
 	if (searchwords!='') searchAll(searchwords)
 	else if (newload) Cat()
 }
