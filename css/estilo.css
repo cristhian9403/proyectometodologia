@@ -33,6 +33,14 @@
 	font-size: 60px;
 }
 
+/*audio de fondo*/
+.seccionSonido{
+    background:#FE2E2E;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
 /*post*/
 .main{
 
