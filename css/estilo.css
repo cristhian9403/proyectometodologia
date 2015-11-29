@@ -37,7 +37,9 @@
 .seccionSonido{
     background:#FE2E2E;
     font-size: 20px;
-    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #0DFFF3;
 
 }
 
