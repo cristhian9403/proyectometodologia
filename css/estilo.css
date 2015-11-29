@@ -130,6 +130,8 @@
     display: none;
     padding: 20px;
     overflow: auto;
+    text-align: justify;
+
 }
 
 .accordion-content p{
