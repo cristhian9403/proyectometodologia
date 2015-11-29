@@ -256,7 +256,7 @@ function AddBody() {
 						)
 
 	templateBody()
-	document.write("</script><form name='searchform' class='form-inline' method='post' action='javascript:doSearch()'><input name='searchwords' type='text' class='form-control' placeholder='Buscar'/>&nbsp;&nbsp;<a href='javascript:doSearch()'>"+ButtonCode+"</a></form>")
+	document.write("</script><form name='searchform' method='post' action='javascript:doSearch()'><div class='form-group'><input name='searchwords' type='text' class='form-control' placeholder='Buscar'/>&nbsp;&nbsp;<a href='javascript:doSearch()'></div>"+ButtonCode+"</a></form>")
 	if (usebannercode) bannerCode()
 }
 
