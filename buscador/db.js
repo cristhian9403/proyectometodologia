@@ -13,7 +13,7 @@ ButtonCode = "<button type='submit' align='center' class='btn btn-primary'><span
 	function templateBody() {
 		document.write('<'+
 		'script language="Javascript">'+
-		'<'+'/'+'script'+'><table border=0 width=100%><tr><td>');
+		'<'+'/'+'script'+'><table border=0 width=100%><tr><td class="span6" align="center">');
 	}
 
 	function templateEnd() {
