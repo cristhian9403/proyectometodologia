@@ -1,15 +1,18 @@
 <html>
 <head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>buscador</title>
 
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-    <link href="css/darly.css" rel="stylesheet">
-    <link href="css/estilo.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/darly.css" rel="stylesheet">
+    <link href="../css/estilo.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
 
 
 
@@ -17,18 +20,175 @@
 
 
 <body>
-  	   					<div >
-<script language="Javascript" src="buscar.js"></script>
-<script language="Javascript" src="db.js"></script>
+    <header>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+
+            <div class="container">
+                <div class="navbar-header">
+                     
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navegacion-MM">
+                         <span class="sr-only">Desplegar/Ocultar Menú</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+          <div>
+           <a class="navbar-brand" class="active" href="#"><img style="max-width:100px; margin-top: -15px;" alt="Psicología a tu alcance" src="../imagenes/este.jpg"></a>
+         </div>
+                </div>
+                <!--inicio de menu-->
+
+                <div class="collapse navbar-collapse" id="navegacion-MM">
+                    <ul class="nav navbar-nav">
+
+                        <li class="active">
+                            <a href="../index.html"><span class= "fa fa-home"></span></a>
+
+                        </li>
+                        
+                        <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Psicología<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../vistas/Psicologia/Definicion.html">Definición</a>
+                                </li>
+                                <li>
+                                    <a href="../vistas/Psicologia/Historia.html">Fundamentos Históricos</a>
+                                </li>
+                                <li>
+                                    <a href="../vistas/Psicologia/Biologicos.html">Fundamentos Biológicos</a>
+
+                                </li>
+                                <li>
+                                    <a href="../vistas/Psicologia/Filosoficos.html">Fundamentos Filosóficos</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="../vistas/Psicologia/Glosario.html">Glosario</a>
+                                    
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ramas de la Psicología<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../vistas/Ramas/Social.html">Social</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../vistas/Ramas/Educativa.html">Educativa</a>
+                                </li>
+                                <li>
+                                    <a href="../vistas/Ramas/Clinica.html">Clínica</a>
+                                </li>
+                                <li>
+                                    <a href="../vistas/Ramas/Organizacional.html">Organizacional</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="">
+                            <a href="../vistas/Eventos.html">Eventos</a>
+                        </li>
+                        <li>
+                            <a href="../vistas/Presentacion.html">Presentación</a>
+                        </li>
+
+                    </ul>
+                   
+                </div>
+
+            </div>
+
+        </nav>
+
+        
+
+    </header>
+     <section class= "jumbotron1">
+        <div class= "container">
+                <h1 class="titulo-blog"><br>
+                    Psicología a tu alcance
+                </h1>
+                <p>
+          -Existen dos maneras de ser feliz en esta vida: Una es hacerse el idiota y la otra serlo. (Sigmund Freud)
+                </p>
+  
+        <p>
+          -Confiar en ti mismo no garantiza el éxito, pero no hacerlo garantiza el fracaso.(Albert Bandura)
+        </p>
+        <p>
+
+          -La psicología, a diferencia de la química, algebra o literatura, es un manual para tu propia mente. Es una guía para la vida.(Daniel Goldstein)
+        </p>
+                
+        </div>
+
+    </section>
+
+    </section>
+<!--migas de pan-->
+    <div class="main container "> 
+        <div class="row">
+            <section class="posts col-md-12">
+                <div class="migadepan">
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="../index.html">Inicio</a> <span class="divider">/</span>
+                        </li>
+                                    
+                         <li class="active">Buscador</li>
+                       <!-- <li>
+                           <a href="#">Psicología</a> <span class="divider">/</span>
+                       </li>
+                       <li class="active">Glosario</li>-->
+
+                </div>
+            </section>
+
+  	   	<div >
+            <script language="Javascript" src="buscar.js"></script>
+            <script language="Javascript" src="db.js"></script>
 
 
-<script language="Javascript">
-	initXsearch();
-</script>
+            <script language="Javascript">
+            	initXsearch();
+            </script>
 
-</div>
+        </div>
+
+    <section class= "jumbotron2">
+   <footer>  
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                
+            <h4>
+             <strong>Soluciones Web.inc<br></strong> 
+             <strong> <img alt="holas" src="../imagenes/blacktocat.png">
+          <p>
+            <br> Cristina Delgado López
+                <br> Cristhian Camilo Alvarez Gomez
+                <br> Jose Luis Guevara Salverria
+                </p>
+             </strong>
+             <strong><br> <i class="fa fa-map-marker"> Calle falsa con avenida 123</i></strong>
+             <strong><br> <i class="fa fa-envelope"> solucionesweb@hotmail.com</i> </strong>
+             <strong><br> <i class="fa fa-phone-square"> 3184656818 </i> </strong>
+             <strong><br> <i class="fa fa-calendar"> Noviembre 2015 </i></strong>
+          <br>
+      </h4>
+          </div>
+        </div>
+    </div>
+
+   </fotter>
+ </section>
 				
-				</div>
+				
 
 </body>
 </html>

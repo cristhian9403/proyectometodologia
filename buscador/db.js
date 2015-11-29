@@ -5,11 +5,11 @@
 	searchname = 'buscar.html'
 	
 	usebannercode=true
-ButtonCode = "<button type='submit' class='fa fa-search btn btn-primary' align='right'>Buscar</button>"
+ButtonCode = "<button type='submit' class='btn btn-primary'>Buscar</button>"
 	function templateBody() {
 		document.write('<'+
 		'script language="Javascript">'+
-		'<'+'/'+'script'+'></head><body bgcolor="#ffffff" text="#000000" link="#000099" vlink="#996699" alink="#996699"><table border=0 width=640><tr><td>');
+		'<'+'/'+'script'+'></head><body bgcolor="#ffffff" text="#000000" link="#000099" vlink="#996699" alink="#996699"><table border=0 width=100%><tr><td>');
 	}
 
 	function templateEnd() {
