@@ -143,7 +143,7 @@ function searchAll(keyword){
 				if (x2>0) tmp=tmp.substring(0,x2)
 				if (tmp.substring(0,1)=="'") tmp=tmp.substring(1,tmp.length-2)
 				if (tmp.substring(0,1)=='"') tmp=tmp.substring(1,tmp.length-1)
-				document.write("<table border=0 width=500><tr><td><span class='xresult'>"+records[rc].description+"</span></td></tr></table><span class='xlocation'>"+tmp+"</span><br><br>")
+				document.write("<table border=0 width=500><tr><td align='center'><span class='xresult'>"+records[rc].description+"</span></td></tr></table><span class='xlocation'>"+tmp+"</span><br><br>")
 			}
 			q2++
    		}
