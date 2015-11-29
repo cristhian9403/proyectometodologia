@@ -19,6 +19,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 
+    <script type="text/javascript" src="mediaplayer/swfobject.js"></script>
+
 
 
 
@@ -215,14 +217,18 @@
     			</div>
     		</section>
 
-<div>
-<audio id="sonido" src="13-mago_de_oz-hechizos_pocimas_y_brujeria-vpe.mp3">
-</audio>
-<button onclick="javascript:document.getElementById('sonido').play();">
-Ejecutar</button>
-<button onclick="javascript:document.getElementById('sonido').pause();">
-Pausa</button>
-</div><br/>
+
+
+<div id="player1">This text will be replaced</div> 
+<script type="text/javascript">
+  var so = new SWFObject('mediaplayer/mediaplayer.swf','mpl','100%','20','7'); 
+  so.addParam('allowfullscreen','true'); 
+  so.addVariable('file','mediaplayer/audios/danzahungara.mp3'); 
+  so.addVariable('height','20'); 
+  so.addVariable('width','1170%'); 
+  so.write('player1'); 
+</script>
+<br/><br/>
     	
 
 			   
