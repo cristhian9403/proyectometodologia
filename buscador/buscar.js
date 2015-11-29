@@ -116,9 +116,9 @@ function searchAll(keyword){
 
 	if (finds==0) {
 		document.write("<h3><font color=green>No se encontró <b>''"+keyword+"''</b></font></h3>"+
-						"<p>La palabra - <b>"+keyword+"</b> - no se encuentra en la base de datos.</p>"+
-						"<LI>Verifique que haya deletreado bien la palabra.</li>"+
-						"<LI>Intente nuevamente utilizando otra palabra clave.</li>"+
+						"<p class='p1'>La palabra - <b>"+keyword+"</b> - no se encuentra en la base de datos.</p>"+
+						"<LI class='Li1'>Verifique que haya deletreado bien la palabra.</li>"+
+						"<LI class='Li1'>Intente nuevamente utilizando otra palabra clave.</li>"+
 						
 						"<LI>Pruebe ingresando varias palabras en un mismo campo.</li></span>"+
 						"</p>")
