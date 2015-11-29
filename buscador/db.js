@@ -9,7 +9,7 @@
 	searchname = 'buscar.html'
 	
 	usebannercode=true
-ButtonCode = "<button type='submit' class='btn btn-primary' ><span class= 'fa fa-search' align='left'> Buscar </span></button>"
+ButtonCode = "<button type='submit' align='center' class='btn btn-primary'><span class= 'fa fa-search' > Buscar </span></button>"
 	function templateBody() {
 		document.write('<'+
 		'script language="Javascript">'+
